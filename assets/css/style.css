@@ -36,11 +36,6 @@ html, body {
     line-height: 1.9em;
   }
 
-  p.footerText {
-      margin-top: 0;
-      padding-bottom: 0;
-  }
-
   h2 {
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 1.6em;
@@ -73,15 +68,20 @@ html, body {
     grid-template-columns: auto 480px 480px auto;
     grid-gap: 0;
   }
+
+  p.footerText {
+    margin-top: 0;
+    padding-bottom: 0;
+}
   
   footer {
-    height: 30px;
-    font-size: 0.7em;
+    height: 25px;
+    font-size: 0.65em;
     text-align: center;
     grid-column: 1 / -1;
     grid-row: 4 / 5;
     align-self: end;
-    padding: 30px 0 0 0;
+    padding: 35px 0 0 0;
     color: #cccccc;
     border-top: 8px solid #4aaaa5;
     background-color: #666666;
